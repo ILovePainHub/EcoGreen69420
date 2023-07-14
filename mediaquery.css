@@ -1,0 +1,133 @@
+@media screen and (min-width: 768px){
+    body{
+      
+    }
+    .donate{
+        flex-basis: 25%;
+    }
+    .nav_box{
+        flex-basis: 75%;
+        justify-content: flex-end;
+    }
+    .menu{
+        display: none;
+    }
+    #nav_show{
+        display: flex;
+        flex-grow: 1;
+    }
+    #nav_show ul{
+        list-style-type: none;
+        display: flex;
+        width: 100%;
+    }
+    #nav_show ul li{
+        flex-basis: 15%;
+        text-align: center;
+    }
+    #nav_show ul li a{
+        text-decoration: none;
+        color: white;
+
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .project{
+        flex-direction: row;
+        height: 325px;
+    }
+    .project-image{
+        height: 100px;
+        flex-basis: 50%;
+    }
+    .tree{
+        display: block;
+        flex-basis: 40%;
+        height: 500px;
+    }
+    .tree img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: bottom center;
+    }
+    .project-image-img{
+        border-radius: 1rem 0 0 1rem;
+    }
+    .project{
+        flex-basis: 45%;
+        height: 350px;
+        flex-grow: 1;
+    }
+    .section-title{
+        flex-basis: 100%;
+    }
+    .volunteer{
+        display: flex;
+    }
+    .about{
+        flex-basis: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+}
+@media screen and (min-width: 1200px) {
+    body{
+      
+    }
+    .donate{
+        flex-basis: 25%;
+    }
+    .nav_box{
+        flex-basis: 75%;
+        justify-content: flex-end;
+    }
+    .menu{
+        display: none;
+    }
+    #nav_show{
+        display: flex;
+        flex-grow: 1;
+    }
+    #nav_show ul{
+        list-style-type: none;
+        display: flex;
+        width: 100%;
+    }
+    #nav_show ul li{
+        flex-basis: 15%;
+        text-align: center;
+    }
+    #nav_show ul li a{
+        text-decoration: none;
+        color: white;
+
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .project{
+        flex-direction: row;
+        height: 325px;
+    }
+    .project-image{
+        height: 100px;
+        flex-basis: 50%;
+    }
+    .tree{
+       flex-basis: 50%;
+    }
+    .about{
+        flex-basis: 50%;
+    }
+    footer{
+       flex-direction: row;
+        height: 200px;
+    }
+    
+}
